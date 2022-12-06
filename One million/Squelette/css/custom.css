@@ -1,0 +1,82 @@
+/* Vos customisations des classes de Bootstrap */
+#home {
+    background-image: url(../images/hero-image.jpg);
+    text-align: center;
+}
+#who {
+    text-align: center;
+}
+/* Responsive Styling */
+#get-involved{
+    background-color: rgba(211, 211, 211, 0.404);
+    text-align: center;
+    padding-bottom: 30px;
+}
+.row {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 6px;
+    background-color: black;
+}
+.rouge{
+    color: red;
+}
+footer{
+    padding-top: 100px;
+    background-color: red;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+.modal-body {
+    position:relative;
+    padding:0px;
+}
+.close {
+    position:absolute;
+    right:-30px;
+    top:0;
+    z-index:999;
+    font-size:2rem;
+    font-weight: normal;
+    color:#fff;
+    opacity:1;
+}
+
+
+@media (max-width: 1199px) {
+    
+}
+
+@media (max-width: 991px) {
+    #home{
+        font-size: 10px;
+    }
+    #home h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #home{
+        font-size: 15px;
+    }
+    #home h1{
+        font-size: 35px;
+    }
+}
